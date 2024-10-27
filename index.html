@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png">
+    <link rel="manifest" href="/public/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        <div>
+        <img src="/assets/me photos/me.jpg" alt="Me"> 
+        <h1>Sidney Vu</h1>
+        <p>General Engineering '28 | Texas A&M University</p>
+    </header>
+    <section id = "about" class = "about">
+        <div>
+            <h2>About Me</h2>
+            <p>Hi! I'm Sidney Vu, a General Engineering student at 
+                Texas A&M with an interest in fullstack devlopment! </p>
+        </div>
+        <div>
+            <h3>Skills</h3>
+            <div class="logos">
+                <div class="logosSlide">
+                        <img src="/assets/skills/css.png" alt="css logo">
+                        <img src="/assets/skills/html.png" alt="html logo">
+                        <img src="/assets/skills/postgresql.png" alt="postgresql logo">
+                        <img src="/assets/skills/python.png" alt="python logo" class = "python">
+                        <img src="/assets/skills/prisma.png" alt="prisma logo">
+                        <img src="/assets/skills/vercel.png" alt="vercel logo">
+                        <img src="/assets/skills/nextjs.png" alt="nextjs logo">
+                    </div>
+                    <div class="logosSlide">
+                        <img src="/assets/skills/css.png" alt="css logo">
+                        <img src="/assets/skills/html.png" alt="html logo">
+                        <img src="/assets/skills/postgresql.png" alt="postgresql logo">
+                        <img src="/assets/skills/python.png" alt="python logo" class="python">
+                        <img src="/assets/skills/prisma.png" alt="prisma logo">
+                        <img src="/assets/skills/vercel.png" alt="vercel logo">
+                        <img src="/assets/skills/nextjs.png" alt="nextjs logo">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Experiences</h3>
+                <div class="timeline">
+                    <div class="container left">
+                        <img src="/assets/experience/tamu.png" alt="thing" >
+                        <div class="textbox">
+                            <h4>Student Technician</h4>
+                            <small>Aug. 2024 - Present</small>
+                            <p>Assisted faculty, students, and general public with technical issues related to NetID, Duo, Microsoft 365, Zoom, and mobile communications</p>
+                            <p>Answered and updated tickets utilizing TeamDynamix regarding maintenance requests, setup assistance, or troubleshooting</p>
+                            <span class="leftArrow"></span>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <img src="/assets/experience/sch.png" alt="ting" class="expImg">
+                        <div class="textbox">
+                            <h4>Volunteer</h4>
+                            <small>May 2024 - Present</small>
+                            <p>Provided excellent service to around 100 individuals by maintaining knowledge about attraction locations, asking
+                                questions and keeping casual conversations to help them feel welcomed and engaged</p>
+                                <span class="rightArrow"></span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    <section id = "projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <img src="/assets/projects/startingfromthestem.png" alt="plantstems">
+            <div class = "project">
+                <h3>Starting From the STEM</h3>
+                <p>An education website for students to learn STEM topics utilizing OpenAI as a personal tutor, practice materials, and graphical content.
+                    I worked on creating the backend architecture for the application using Prisma, connecting our SQL databases to Vercel, and creating a personal tutor using OpenAI
+                </p>
+                <a href="https://github.com/sidneyvu1/myportfolio.git">View on GitHub</a>
+            </div>
+        </div>
+        <div class="projects">
+            <img src="public/apple-touch-icon.png" alt="">
+            <div class = "project">
+                <h3>Portfolio Website</h3>
+                <p>A website that shows off my experiences! I will be constantly updating and remaking this, essentially showing my progression learning HTML, CSS, and JavaScript for frontend development.</p>
+                <a href="https://github.com/StartingFromTheSTEM">View on GitHub</a> <!--add link here later-->
+            </div>
+        </div>
+    </section>
+
+    <section id = "contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contactContainer">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contactform">
+                <input type="hidden" name="access_key" value="784edb4d-2adc-4a18-b7ab-230017195852">    
+                <input type="text" name="name" placeholder="Your Name" class="contactInput" required>
+                <input type="email" name="email" placeholder="Your Email" class="contactInput" required>
+                <textarea name="message" placeholder="Your Message" class="contactInput"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="links">
+                <a href="mailto: sidneyvu514@gmail.com"><img src="/assets/contact/emailIcon.png" alt=""></a>
+                <a href="https://github.com/sidneyvu1"><img src="/assets/contact/githubIcon.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/sidney-vu"><img src="/assets/contact/linkedinIcon.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sidney Vu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
