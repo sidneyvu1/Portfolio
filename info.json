@@ -1,0 +1,83 @@
+{
+    "experiences" : [
+        {
+            "jobName" : "Student Technician",
+            "imageURL" : "public/assets/experience/tamu.png",
+            "duration": "Aug. 2024 - Present",
+            "description" : [
+                "Provided Tier 1 and Tier 2 technical support to 50+ faculty and students by resolving hardware/software issues, troubleshooting network problems, and configuring systems",
+                "Reduced average ticket response time by 1% by efficiently managing requests in TeamDynamix",
+                "Reimaged and updated systems with essential applications to improve performance and reduce downtime",
+                "Swapped out computer hard drives and setup computer docking stations to support multiple monitor displays for faculty"
+            ]
+        },
+        {
+            "jobName" : "Student Assistant",
+            "imageURL" : "public/assets/experience/tamu.png",
+            "duration": "Aug. 2025 - Present",
+            "description" : [
+                "Graded assignments, exams, and taught students utilizing VS Code as an IDE for an Introduction to Python course (ENGR 102), ensuring academic accuracy",
+                "Provided feedback and assistance to students regarding Python and programming styles taught, that improved their understanding and helped them succeed in the course"
+            ]
+        },
+        {
+            "jobName" : "Web Development Officer",
+            "imageURL" : "public/assets/experience/tamu.png",
+            "duration": "Feb. 2025 - Aug. 2025",
+            "description" : [
+                "Collaborated with a development team to create a fullstack application using Typescript, Drizzle, Tailwind CSS, Next.js, and PostgreSQL for each hackathon we host",
+                "Assisted competitors with questions and answered tickets during the event regarding our data science oriented challenges, covering topics like machine learning, web scraping, prompt engineering, and python libraries",
+                "Ensured the event went smoothly for participants by following the planned schedule accordingly"
+            ]
+        },
+        {
+            "jobName" : "Volunteer",
+            "imageURL" : "public/assets/experience/sch.png",
+            "duration": "May. 2024 - Jan. 2025",
+            "description" : [
+                "Provided excellent service to around 100 individuals by maintaining knowledge about attraction locations, asking questions and keeping casual conversations to help them feel welcomed and engaged"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "projectName" : "Starting From the STEM",
+            "projectImage" :"public/assets/projects/startingfromthestem.png",
+            "description" : "An education website for students to learn STEM topics utilizing OpenAI as a personal tutor, practice materials, and graphical content. I worked on creating the backend architecture for the application using Prisma and connecting our SQL databases to Vercel.",
+            "githubLink" : "https://github.com/StartingFromTheSTEM"
+        },
+        {
+            "projectName" : "Personal Portfolio",
+            "projectImage" :"public/apple-touch-icon.png",
+            "description" : "A website that shows off my experiences! I will be constantly updating and remaking this, essentially showing my progression learning HTML, CSS, and JavaScript for frontend development",
+            "githubLink" : "https://github.com/sidneyvu1/Portfolio"
+
+        }
+    ],
+    "skills" : [
+        {
+            "skillImage" : "public/assets/skills/css.png"
+        },
+        {
+            "skillImage" : "public/assets/skills/html.png"
+        },
+        {
+            "skillImage" : "public/assets/skills/postgresql.png"
+        },
+        {
+            "skillImage" : "public/assets/skills/python.png"
+        },
+        {
+            "skillImage" : "public/assets/skills/cpp.png"
+        },
+        {
+            "skillImage" : "public/assets/skills/nextjs.png"
+        },
+        {
+            "skillImage" : "public/assets/skills/prisma.png"
+        },
+        {
+            "skillImage" : "public/assets/skills/javascript.png"
+        }
+    ]
+}
