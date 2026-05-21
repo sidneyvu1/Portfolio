@@ -38,6 +38,16 @@ function description(description) {
     `
 }
 
+function projectSkills(skills) {
+    return `
+    <ul>
+        ${skills.map(function(skill) {
+            return `<li>${skill}</li>`
+        }).join("")}
+    </ul>
+    `
+}
+
 function jobTemplate(job, index) {
     let arrowSide = ""
     let containerSide = "container left"
@@ -69,7 +79,10 @@ function projectTemplate(project) {
                 <h3>${project.projectName}</h3>
                 <p>${project.description}</p>
                 <a href="${project.githubLink}">View on GitHub</a>
+                ${projectSkills(project.stack)}
             </div>
         </div>
         `
 }
+
+document.querySelector('footer p').innerHTML = `&copy; ${new Date().getFullYear()} Sidney Vu. All rights reserved.`;

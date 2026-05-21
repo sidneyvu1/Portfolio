@@ -1,33 +1,50 @@
 {
     "experiences" : [
         {
+            "jobName": "Incoming Cybersecurity Intern",
+            "imageURL": "public/assets/experience/griffiss.png",
+            "duration": "Jun. 2026 – Present",
+            "description": [
+                "Selected as VICEROY Scholar through the MAVEN program to conduct cyber-spectrum operations in a national security environment, producing technical assessments for operational leadership.",
+                "Authoring IEEE-style research reports on cyber-spectrum topics to inform future Air Force Research Laboratory operations."
+            ]
+        },
+        {
+            "jobName": "AI Ignite Fellow",
+            "imageURL": "public/assets/experience/ai4all.png",
+            "duration": "May 2026 – Present",
+            "description": [
+                "Selected for a competitive 20-week AI accelerator, building an ML portfolio project under mentorship from engineers at OpenAI, Google, and Capital One.",
+                "Applying machine learning techniques and AI-assisted development tools alongside a national undergraduate cohort."
+            ]
+        },
+        {
+            "jobName": "Student Assistant – Python TA",
+            "imageURL": "public/assets/experience/tamu.png",
+            "duration": "Aug. 2025 – Present",
+            "description": [
+                "Evaluated 100+ student submissions and conducted 1-on-1 tutoring sessions for ENGR 102 (Intro to Python).",
+                "Provided targeted feedback on code quality, style, and problem-solving approach to improve student performance."
+            ]
+        },
+        {
+            "jobName": "Web Development Officer",
+            "imageURL": "public/assets/experience/tamudatathon.png",
+            "duration": "Feb. 2025 – Aug. 2025",
+            "description": [
+                "Helped build and maintain a full-stack TypeScript, Next.js, and PostgreSQL application used by 300+ participants across each hackathon hosted.",
+                "Resolved 10+ live support tickets on data science challenges covering machine learning, web scraping, prompt engineering, and Python."
+            ]
+        },
+        {
             "jobName" : "Student Technician",
             "imageURL" : "public/assets/experience/tamu.png",
             "duration": "Aug. 2024 - Present",
             "description" : [
-                "Provided Tier 1 and Tier 2 technical support to 50+ faculty and students by resolving hardware/software issues, troubleshooting network problems, and configuring systems",
-                "Reduced average ticket response time by 1% by efficiently managing requests in TeamDynamix",
-                "Reimaged and updated systems with essential applications to improve performance and reduce downtime",
-                "Swapped out computer hard drives and setup computer docking stations to support multiple monitor displays for faculty"
-            ]
-        },
-        {
-            "jobName" : "Student Assistant",
-            "imageURL" : "public/assets/experience/tamu.png",
-            "duration": "Aug. 2025 - Present",
-            "description" : [
-                "Graded assignments, exams, and taught students utilizing VS Code as an IDE for an Introduction to Python course (ENGR 102), ensuring academic accuracy",
-                "Provided feedback and assistance to students regarding Python and programming styles taught, that improved their understanding and helped them succeed in the course"
-            ]
-        },
-        {
-            "jobName" : "Web Development Officer",
-            "imageURL" : "public/assets/experience/tamu.png",
-            "duration": "Feb. 2025 - Aug. 2025",
-            "description" : [
-                "Collaborated with a development team to create a fullstack application using Typescript, Drizzle, Tailwind CSS, Next.js, and PostgreSQL for each hackathon we host",
-                "Assisted competitors with questions and answered tickets during the event regarding our data science oriented challenges, covering topics like machine learning, web scraping, prompt engineering, and python libraries",
-                "Ensured the event went smoothly for participants by following the planned schedule accordingly"
+                "Provided Tier 1 and Tier 2 technical support to 50+ faculty and students, resolving hardware/software issues, network troubleshooting, and system configuration across Windows and macOS environments.",
+                "Managed and triaged 100+ support tickets in TeamDynamix, prioritizing requests to maintain SLA compliance and reduce resolution backlog.",
+                "Reimaged and deployed 20+ systems with standardized software configurations, cutting recurring downtime incidents and ensuring environment consistency across labs.",
+                "Upgraded storage hardware and configured multi-monitor docking station setups for faculty workstations, directly improving daily productivity for end users."
             ]
         },
         {
@@ -41,17 +58,39 @@
     ],
     "projects": [
         {
-            "projectName" : "Starting From the STEM",
-            "projectImage" :"public/assets/projects/startingfromthestem.png",
-            "description" : "An education website for students to learn STEM topics utilizing OpenAI as a personal tutor, practice materials, and graphical content. I worked on creating the backend architecture for the application using Prisma and connecting our SQL databases to Vercel.",
-            "githubLink" : "https://github.com/StartingFromTheSTEM"
+            "projectName": "Cookie Store",
+            "projectImage": "public/assets/projects/cookiestore.png",
+            "description": "A full-stack cookie ordering app for a family member's home bakery handling product catalog, cart state, live payment processing, and order storage with an admin dashboard. Built with Next.js App Router, Server Components, Supabase, Drizzle ORM, and Stripe.",
+            "githubLink": "https://github.com/sidneyvu1/cookie-store",
+            "stack": ["Next.js", "React", "PostgreSQL", "Drizzle ORM", "Stripe", "Supabase", "REST APIs"]
         },
         {
-            "projectName" : "Personal Portfolio",
-            "projectImage" :"public/apple-touch-icon.png",
-            "description" : "A website that shows off my experiences! I will be constantly updating and remaking this, essentially showing my progression learning HTML, CSS, and JavaScript for frontend development",
-            "githubLink" : "https://github.com/sidneyvu1/Portfolio"
-
+            "projectName": "Python Auto Updater",
+            "projectImage": "public/assets/projects/autoupdater.png",
+            "description": "A Python automation script that polls REST APIs to detect new job postings and automatically updates a tracking spreadsheet, reducing manual overhead. Handles REST API request parsing, version checking, and data diffing for seamless job application management.",
+            "githubLink": "https://github.com/sidneyvu1/Job-Application-Updater",
+            "stack": ["Python", "REST APIs"]
+        },
+        {
+            "projectName": "Football Scoreboard App",
+            "projectImage": "public/assets/projects/scoreboard.png",
+            "description": "A football scoreboard application built in Java using MVC architecture for CSCE314 final project, featuring a countdown timer, action history stack, and multi-package compilation. Includes model unit tests verifying score tracking, timer behavior, and state transitions.",
+            "githubLink": "https://github.com/sidneyvu1/314-Final-Project",
+            "stack": ["Java", "JavaFX", "MVC Architecture"]
+        },
+        {
+            "projectName": "Starting From the STEM",
+            "projectImage": "public/assets/projects/startingfromthestem.png",
+            "description": "An education website for students to learn STEM topics. Led the Blog team to ship a Blog feature to increase user engagement using Railway, and built REST API-backed backend architecture using Prisma to connect PostgreSQL databases to Vercel.",
+            "githubLink": "https://github.com/StartingFromTheSTEM",
+            "stack": ["Next.js", "React", "Prisma", "PostgreSQL", "REST APIs", "Railway"]
+        },
+        {
+            "projectName": "Personal Portfolio",
+            "projectImage": "public/apple-touch-icon.png",
+            "description": "A website that shows off my experiences!",
+            "githubLink": "https://github.com/sidneyvu1/Portfolio",
+            "stack": ["React", "Next.js"]
         }
     ],
     "skills" : [
