@@ -1,7 +1,7 @@
 {
     "experiences" : [
         {
-            "jobName": "Incoming Cybersecurity Intern",
+            "jobName": "<a href=\"https://viceroyscholars.org/viceroy-scholars-internship-program/\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">MAVEN Intern</a>",            
             "imageURL": "public/assets/experience/griffiss.png",
             "duration": "Jun. 2026 – Present",
             "description": [
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "jobName": "AI Ignite Fellow",
+            "jobName": "<a href=\"https://ai-4-all.org/ai4all-ignite/\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">AI Ignite Fellow</a>",
             "imageURL": "public/assets/experience/ai4all.png",
             "duration": "May 2026 – Present",
             "description": [
@@ -69,7 +69,7 @@
             "projectImage": "public/assets/projects/autoupdater.png",
             "description": "A Python automation script that polls REST APIs to detect new job postings and automatically updates a tracking spreadsheet, reducing manual overhead. Handles REST API request parsing, version checking, and data diffing for seamless job application management.",
             "githubLink": "https://github.com/sidneyvu1/Job-Application-Updater",
-            "stack": ["Python", "REST APIs"]
+            "stack": ["Python", "REST APIs", "Google Sheets API", "Google Gmail API"]
         },
         {
             "projectName": "Football Scoreboard App",
@@ -90,7 +90,7 @@
             "projectImage": "public/apple-touch-icon.png",
             "description": "A website that shows off my experiences!",
             "githubLink": "https://github.com/sidneyvu1/Portfolio",
-            "stack": ["React", "Next.js"]
+            "stack": ["HTML", "CSS", "Javascript"]
         }
     ],
     "skills" : [
