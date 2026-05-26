@@ -62,6 +62,7 @@
             "projectImage": "public/assets/projects/cookiestore.png",
             "description": "A full-stack cookie ordering app for a family member's home bakery handling product catalog, cart state, live payment processing, and order storage with an admin dashboard. Built with Next.js App Router, Server Components, Supabase, Drizzle ORM, and Stripe.",
             "githubLink": "https://github.com/sidneyvu1/cookie-store",
+            "images": ["public/assets/projects/cookie-store/demo.png"],
             "stack": ["Next.js", "React", "PostgreSQL", "Drizzle ORM", "Stripe", "Supabase", "REST APIs"]
         },
         {
@@ -76,6 +77,7 @@
             "projectImage": "public/assets/projects/scoreboard.png",
             "description": "A football scoreboard application built in Java using MVC architecture for CSCE314 final project, featuring a countdown timer, action history stack, and multi-package compilation. Includes model unit tests verifying score tracking, timer behavior, and state transitions.",
             "githubLink": "https://github.com/sidneyvu1/314-Final-Project",
+            "images": ["public/assets/projects/scoreboard/demo.png"],
             "stack": ["Java", "JavaFX", "MVC Architecture"]
         },
         {
@@ -91,32 +93,6 @@
             "description": "A website that shows off my experiences!",
             "githubLink": "https://github.com/sidneyvu1/Portfolio",
             "stack": ["HTML", "CSS", "Javascript"]
-        }
-    ],
-    "skills" : [
-        {
-            "skillImage" : "public/assets/skills/css.png"
-        },
-        {
-            "skillImage" : "public/assets/skills/html.png"
-        },
-        {
-            "skillImage" : "public/assets/skills/postgresql.png"
-        },
-        {
-            "skillImage" : "public/assets/skills/python.png"
-        },
-        {
-            "skillImage" : "public/assets/skills/cpp.png"
-        },
-        {
-            "skillImage" : "public/assets/skills/nextjs.png"
-        },
-        {
-            "skillImage" : "public/assets/skills/prisma.png"
-        },
-        {
-            "skillImage" : "public/assets/skills/javascript.png"
         }
     ]
 }

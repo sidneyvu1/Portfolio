@@ -48,6 +48,13 @@ function projectSkills(skills) {
     `
 }
 
+function projectImages(imgs) {
+    return `
+        ${imgs.map( img => `<img src="${img}" alt="projectImage">`).join("")}
+
+    `
+}
+
 function jobTemplate(job, index) {
     let arrowSide = ""
     let containerSide = "container left"
@@ -74,10 +81,13 @@ function jobTemplate(job, index) {
 
 function projectTemplate(project) {
     return `<div class="projects">
-            <img src="${project.projectImage}" alt="project image">
+            <img class = "projlogo" src="${project.projectImage}" alt="project logo">
             <div id = "projectDesc", class = "project">
                 <h3>${project.projectName}</h3>
                 <p>${project.description}</p>
+                <div class = "projimages">
+                    ${project.images ? projectImages(project.images) : ''}
+                </div>
                 <a href="${project.githubLink}">View on GitHub</a>
                 ${projectSkills(project.stack)}
             </div>
